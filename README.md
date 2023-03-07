@@ -41,7 +41,7 @@ The attack and defense of memory shell are still constantly being upgraded and d
 
 So far, there have been many ways of utilizing memory shell discussed publicly on the Internet. This article roughly categorizes them according to the implementation techniques of memory shell. They can be roughly divided into the following categories:
 
-![内存马分类图en.png](内存马分类图en.png)
+![https://github.com/gobysec/Memory-Shell/blob/main/Memory%20shell.png](https://github.com/gobysec/Memory-Shell/blob/main/Memory%20shell.png)
 
 - **Traditional Web Application memory shell**: This type of memory shell uses basic Servlet-API to dynamically register memory shell, and is the most classic type of memory shell that has been extended to adapt to various middleware.
 - **Framework memory shell**: In addition to traditional Servlet projects, there are more and more projects developed using Spring family, and Spring-MVC has implemented related routing registration and lookup logic, and uses interceptors for filtering, which is similar in design to Servlet-Filter.
@@ -150,7 +150,7 @@ There are many similar cases like this, and in various hostile environments, mem
 
 To provide a clearer demonstration of the role of memory-resident malware, here is a simple demonstration using the latest version of OpenRASP (daily persecution) to demonstrate the bypass ability of memory-resident malware.
 
-<video src="视频链接"></video>
+<video src="https://github.com/gobysec/Memory-Shell/blob/main/memory%20shell.mp4"></video>
 
 
 # 07 Question
