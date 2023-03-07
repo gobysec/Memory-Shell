@@ -41,30 +41,7 @@ The attack and defense of memory shell are still constantly being upgraded and d
 
 So far, there have been many ways of utilizing memory shell discussed publicly on the Internet. This article roughly categorizes them according to the implementation techniques of memory shell. They can be roughly divided into the following categories:
 
-| Traditional Web Application memory shell                     |
-| ------------------------------------------------------------ |
-| Servlet-type memory shell ➡️ Dynamically registering Servlets and mapping routes.<br />Filter-type memory shell ➡️ Dynamically register Filters and map routes.<br />Listener-type memory shell ➡️ Dynamically registers Listeners. |
-| In JavaWeb applications, Servlets and their mapping and processing classes, Filters and their mapping and processing classes, and Listeners and their processing classes are stored in the Context and are searched and matched during program execution. Traditional Web Application memory shell add malicious logic to the program at key locations in the Context where their processing code and specified mapping are dynamically added, which can be logic that does not exist in local code or configuration files. |
-
-| Framework-type memory shell                                  |
-| ------------------------------------------------------------ |
-| SpringController-type memory shell ➡️ dynamically registers Controllers and maps routes SpringInterceptor-type memory shell ➡️ dynamically registers Interceptors and maps routes SpringWebflux-type memory shell ➡️ dynamically registers webFilters and maps routes |
-| SpringMVC uses Controllers to receive user input and encapsulate Services. Although some developers prefer to use Mapping to handle this, Controllers typically represent "endpoints" for handling user requests, similar to Servlets, while Interceptors are similar to Filters. |
-
-| Middleware-type memory shell                                 |
-| ------------------------------------------------------------ |
-| TomcatValve-type memory shell➡️ dynamically registers Valve<br />TomcatUpgrade-type memory shell➡️ dynamically registers UpgradeProtocol<br />TomcatExecutor-type memory shell➡️ dynamically replaces global Executor <br />TomcatPoller-type memory shell➡️ dynamically replaces global Poller <br />GrizzlyFilter-type memory shell➡️ dynamically registers GrizzlyFilter and maps routes |
-| Many middleware designs are "streamlined" and "pipeline-based", generally referred to as the Chain of Responsibility pattern, where each key point will handle the Request and pass it on to the next handler. In this pattern, attackers can dynamically add their own malicious logic to the chain of responsibility to achieve the persistence of memory shell. |
-
-| Other memory shell                                           |
-| ------------------------------------------------------------ |
-| WebSocket-type memory shell ➡️ Dynamically registers WebSocket routes and processing logic<br />TomcatJSP-type memory shell ➡️ Dynamically registers TomcatJsp management logic and achieves residency<br />Thread-type memory shell ➡️ Dynamically adds an unkillable thread<br />RMI-type memory shell  ➡️  Dynamically starts an RMIRegistry |
-| For processing WebSocket protocol requests and JSP requests, each middleware contains its own logic, and the specific implementation of this logic can also be used as the logic for a memory shell. The Thread-type memory shell starts an unending thread in the system, which prevents the critical class from being garbage collected and keeps the target system running predefined logic. The RMI memory shell starts an RMIRegistry and binds malicious classes as backdoors. |
-
-| Agent-type memory shell                                      |
-| ------------------------------------------------------------ |
-| Agent-type memory shell ➡️ adds malicious logic by hooking and modifying critical methods. |
-| So far, Agent-type memory shell have been implemented in two popular webshell management tools, namely, "behinder" and "Godzilla." The related technology implementations have become increasingly sophisticated, from executing command injection with landing JAR, to self-attach, to fileless landing Agent injection. The attack and defense in memory are becoming more and more prevalent. |
+![内存马分类图en.png](内存马分类图en.png)
 
 - **Traditional Web Application memory shell**: This type of memory shell uses basic Servlet-API to dynamically register memory shell, and is the most classic type of memory shell that has been extended to adapt to various middleware.
 - **Framework memory shell**: In addition to traditional Servlet projects, there are more and more projects developed using Spring family, and Spring-MVC has implemented related routing registration and lookup logic, and uses interceptors for filtering, which is similar in design to Servlet-Filter.
@@ -173,10 +150,7 @@ There are many similar cases like this, and in various hostile environments, mem
 
 To provide a clearer demonstration of the role of memory-resident malware, here is a simple demonstration using the latest version of OpenRASP (daily persecution) to demonstrate the bypass ability of memory-resident malware.
 
-| video- 视频                                                  |
-| ------------------------------------------------------------ |
-| 1. Start a local target for testing command execution and echo back functionality. Successfully execute the command and see the output from 00:00-00:11.<br/>2. At this point, all OpenRASP modules are turned on and in record mode, which means it won't intercept anything. You can see the attack record in the attack event from 00:11-00:17.<br/>3. Then we switch OpenRASP to interception mode and wait for synchronization between the cloud and the client from 00:17-01:26.<br/>4. Test command execution again and it will be intercepted by OpenRASP, proving that the defense function is now enabled from 01:26-01:34.<br/>5. You can see the attack record in the attack event from 01:34-01:46.<br/>6. Now, try using a memory shell to execute the command and launch the calculator, or execute a command. It runs normally without being intercepted from 01:46-02:10.<br/>7. OpenRASP did not intercept it, and there was no record in the background, which means it was bypassed from 02:11-02:17. |
-
+<video src="视频链接"></video>
 
 
 # 07 Question
