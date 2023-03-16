@@ -7,6 +7,6 @@ and so on.
 **From asset detection, vulnerability scanning, injection of memory shells to management of webshells, they can all be directly completed by Goby.**
 
 Here are some articles to introduce:
-[The king of shell -Javaweb Memory Shell'Cognitive Section' ][https://github.com/gobysec/Memory-Shell/blob/main/Memory%20shell%20%5BCognitive%20Section%5D.md)
+[The king of shell -Javaweb Memory Shell][https://github.com/gobysec/Memory-Shell/blob/main/Memory%20shell%20%5BCognitive%20Section%5D.md)
 Use Goby to break into the memory horse through the deserialization vulnerability [exploitation]
 [Goby WiKi](https://github.com/gobysec/Goby/wiki)
