@@ -17,6 +17,9 @@ Here are some articles to introduce:
 
 <br/>
 1. GitHub issue: https://github.com/gobysec/Goby/issues
+
 2. Telegram Group: http://t.me/gobies (Group benefits: enjoy the version update 1 month in advance) 
+
 3. Telegram Channel: https://t.me/joinchat/ENkApMqOonRhZjFl (Channel benefits: enjoy the version update 1 month in advance) 
+
 4. WeChat Group: First add my personal WeChat: **gobyteam**, I will add everyone to the official WeChat group of Goby. (Group benefits: enjoy the version update 1 month in advance) 
