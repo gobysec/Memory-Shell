@@ -10,4 +10,4 @@ Here are some articles to introduce:
 <br/>
 [The king of shell Javaweb Memory Shell](https://github.com/gobysec/Memory-Shell/blob/main/Memory%20shell%20%5BCognitive%20Section%5D.md)
 
-[Use Goby to break into the memory horse through the deserialization vulnerability-exploitation][https://github.com/gobysec/Memory-Shell/blob/main/Goby%20memory%20shell%5Bexploitation%5D.md)
+[Use Goby to break into the memory horse through the deserialization vulnerability-exploitation](https://github.com/gobysec/Memory-Shell/blob/main/Goby%20memory%20shell%5Bexploitation%5D.md)
