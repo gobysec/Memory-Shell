@@ -12,3 +12,9 @@ Here are some articles to introduce:
 [The king of shell Javaweb Memory Shell-Cognitive Section](https://github.com/gobysec/Memory-Shell/blob/main/Memory%20shell%20%5BCognitive%20Section%5D.md)
 
 [Use Goby to break into the memory horse through the deserialization vulnerability-exploitation](https://github.com/gobysec/Memory-Shell/blob/main/Goby%20memory%20shell%5Bexploitation%5D.md)
+
+
+1. GitHub issue: https://github.com/gobysec/Goby/issues
+2. **Telegram Group: http://t.me/gobies (Group benefits: enjoy the version update 1 month in advance) ** 
+3. Telegram Channel: https://t.me/joinchat/ENkApMqOonRhZjFl (Channel benefits: enjoy the version update 1 month in advance) 
+4. WeChat Group: First add my personal WeChat: **gobyteam**, I will add everyone to the official WeChat group of Goby. (Group benefits: enjoy the version update 1 month in advance) 
