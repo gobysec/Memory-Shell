@@ -13,7 +13,7 @@ Here are some articles to introduce:
 
 [Use Goby to break into the memory horse through the deserialization vulnerability-exploitation](https://github.com/gobysec/Memory-Shell/blob/main/Goby%20memory%20shell%5Bexploitation%5D.md)
 
-[Goby Official URL](gobies.org)
+[Goby Official URL](https://gobies.org/)
 
 1. GitHub issue: https://github.com/gobysec/Goby/issues
 2. Telegram Group: http://t.me/gobies (Group benefits: enjoy the version update 1 month in advance) 
