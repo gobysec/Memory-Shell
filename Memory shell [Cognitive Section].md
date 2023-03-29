@@ -197,4 +197,4 @@ I will discuss this question in detail in the following sections.
 3. Telegram Channel: https://t.me/joinchat/ENkApMqOonRhZjFl (Channel benefits: enjoy the version update 1 month in advance) 
 4. WeChat Group: First add my personal WeChat: **gobyteam**, I will add everyone to the official WeChat group of Goby. (Group benefits: enjoy the version update 1 month in advance) **
 
-[All articles in the memory shellcode series]([https://gobies.org/](https://github.com/gobysec/Memory-Shell))
+[All articles in the memory shellcode series](https://github.com/gobysec/Memory-Shell)
