@@ -8,6 +8,7 @@ This article is mainly divided into three parts: "Exploiting Pre-Vulnerabilities
 Here is a brief demonstration of the use of some related technologies. The following video demonstrates the use of Goby to inject a Filter-type memory shellcode with one-click through deserialization, and carry false information through a custom URLClassLoader to avoid security personnel's investigation. The purpose is achieved by clearing the log without a trace.
 
 [![Goby to inject a Filter-type memory shellcode with one-click through deserialization](https://i.ytimg.com/vi/k5p7IwEA0ss/maxresdefault.jpg)](https://youtu.be/k5p7IwEA0ss "Goby to inject a Filter-type memory shellcode with one-click through deserialization")
+**Click to watch video**
 
 > The one-click Memory shellcode injection feature of Goby can be used for free in the community version. 
 > [Get version](https://gobies.org/sale)
