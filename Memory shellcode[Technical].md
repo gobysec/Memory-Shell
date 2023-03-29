@@ -9,8 +9,8 @@ Here is a brief demonstration of the use of some related technologies. The follo
 
 [![Goby to inject a Filter-type memory shellcode with one-click through deserialization](https://i.ytimg.com/vi/k5p7IwEA0ss/maxresdefault.jpg)](https://youtu.be/k5p7IwEA0ss "Goby to inject a Filter-type memory shellcode with one-click through deserialization")
 
-> The one-click Memory shellcode injection feature of Goby can be used for free in the community version. Click the link at the end of the article to download and experience it.
-
+> The one-click Memory shellcode injection feature of Goby can be used for free in the community version. 
+> [Get version](https://gobies.org/sale)
 
 
 ## 02 Pre-vulnerability Exploitation
@@ -238,3 +238,11 @@ The above section briefly lists some technical issues and solutions encountered 
 Although we are discussing JavaWeb memory shellcode technology, it can be seen that the thinking and technology of the countermeasures have already extended beyond the Java layer to the native layer and memory level. This is still a drop in the bucket in practical use. In actual use, due to differences in operating systems, middleware versions, JDK distributions and versions, security restrictions, security protection and other complex situations, there will be various difficulties. Therefore, more research and debugging, and accumulation of ideas can enable efficient and fast use of memory shellcode in practical use.
 
 In the face of memory shellcode technology, it is superficially a technical confrontation, but in fact it is a confrontation between people and people, thinking and thinking. I throw out some ideas here, hoping to inspire more ingenious ideas, and welcome everyone to discuss.
+
+[Goby Official URL](https://gobies.org/)
+
+1. GitHub issue: https://github.com/gobysec/Goby/issues
+2. Telegram Group: http://t.me/gobies (Group benefits: enjoy the version update 1 month in advance) 
+3. Telegram Channel: https://t.me/joinchat/ENkApMqOonRhZjFl (Channel benefits: enjoy the version update 1 month in advance) 
+4. WeChat Group: First add my personal WeChat: **gobyteam**, I will add everyone to the official WeChat group of Goby. (Group benefits: enjoy the version update 1 month in advance) 
+
