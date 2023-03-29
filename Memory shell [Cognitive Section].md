@@ -190,7 +190,7 @@ I will discuss this question in detail in the following sections.
 
 
 
-**[Goby Official URL](https://gobies.org/)
+**[Goby Official URL](https://gobies.org/)** 
 
 1. GitHub issue: https://github.com/gobysec/Goby/issues
 2. Telegram Group: http://t.me/gobies (Group benefits: enjoy the version update 1 month in advance) 
